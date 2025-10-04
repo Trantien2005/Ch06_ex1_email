@@ -1,5 +1,16 @@
-body { 
-    font-family: Arial, Helvetica, sans-serif;
+/* Import font Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 10;
+    padding: 50;
+}
+
+/* Global body style */
+body {
+    font-family: 'Montserrat', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
     background-color: #e6f0ff;   
     display: flex;
     flex-direction: column;
